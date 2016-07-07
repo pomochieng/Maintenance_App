@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
-  get 'static_pages/knowledge_platform'
+  get 'pages/dashboard'
 
-  get 'static_pages/reports'
+  get 'pages/tickets'
 
-  get 'static_pages/contact_us'
+  get 'pages/knowledge_platform'
+
+  get 'pages/reports'
+
+  get 'pages/contact_us'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
