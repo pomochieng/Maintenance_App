@@ -1,13 +1,13 @@
 Rails.application.routes.draw do
-  root 'pages#dashboard'
+  root                'pages#dashboard'
 
-  get 'pages/tickets'
+  get 'ticket'    => 'pages#tickets'
 
-  get 'pages/knowledge_platform'
+  get 'knowledge_platform'   =>  'pages#knowledge_platform'
 
-  get 'pages/reports'
+  get 'reports'    => 'pages#reports'
 
-  get 'pages/contact_us'
+  get 'contact_us'    => 'pages#contact_us'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
