@@ -28,7 +28,7 @@ gem 'foundation-rails'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
  gem 'bcrypt' 
-
+gem 'rails-controller-testing'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
@@ -60,5 +60,5 @@ group :test do
   gem 'mini_backtrace'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# Windows does not include zoneinfo files, so bundle the tzinfo-data iigem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
