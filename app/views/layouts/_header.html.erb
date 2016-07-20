@@ -1,8 +1,12 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <%= link_to "Mantenance App", root_path, id:"logo" %>
+<div class="top-bar">
+    <div class="top-bar-left">
+        <%= link_to "Maintenance App", root_path, id:"logo" %>
+    </div>
+    
+    <div class="top-bar-right">
+        
         <nav>
-            <ul clas="nav navbar-nav nav-bar-right">
+            <ul class="menu horizontal">
                 <li><%= link_to "Dashboard",    root_path %></li>
                 <li><%= link_to "Tickets",      ticket_path%></li>
                 <li><%= link_to "Knowledge_platform",     knowledge_platform_path%></li>
@@ -29,7 +33,8 @@
             </ul>
         </nav>
     </div>
-</header>
+</div>
+
 
 
 
