@@ -5,3 +5,9 @@ peter:
     email: peter@amabac.com
     password_digest: <%= User.digest('password') %>
 
+abraham:
+    name: Abraham Junior
+    email: abraham@junior.com
+    password_digest: <%= User.digest('password') %>
+
+
