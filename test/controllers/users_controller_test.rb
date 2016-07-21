@@ -3,8 +3,13 @@ require 'test_helper'
 class UsersControllerTest < ActionController::TestCase
 
   def setup
-    @user       = users(:peter)
+    @user = users(:peter)
     @other_user = users(:abraham)
+  end
+
+  test "should redirect index when not logged in" do
+    get :index
+    assert_redirected_to login_url
   end
 
   test "should get new" do
