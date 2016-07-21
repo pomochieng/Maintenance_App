@@ -28,7 +28,8 @@ gem 'foundation-rails'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
  gem 'bcrypt' 
-gem 'rails-controller-testing'
+ gem 'rails-controller-testing'
+ gem 'faker'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :production do
